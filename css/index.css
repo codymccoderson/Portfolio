@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: white;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 6.854rem;
+    line-height: 1rem;
+    max-width: 100%;
+  }
+  
+  h2 {
+    font-size: 2.618rem;
+    line-height: 0.5rem;
+  }
+  
+  .subtitle {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .firstsub {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .social--links {
+    margin-top: 3rem;
+  }
+
+  .social--links a {
+    color: black;
+  }
+  
+  h3 {
+    font-size: 1.618rem;
+    margin-top: 0;
+  }
+  
+  header {
+    left: 10%;
+    position: fixed;
+    top: 20%;
+  }
+  
+  .header-image {
+    color: rgb(222, 222, 222);
+    font-size: 2.618rem;
+    margin-right: 0.75rem;
+    text-decoration: none;
+    transition: box-shadow 0.75s, transform 0.75s;
+  }
+  
+  .scroll--notif {
+    color: rgb(222, 222, 222);
+    font-size: 1.618rem;
+    position: fixed;
+    top: 95vh;
+    right: 25%;
+    z-index: -1;
+  }
+  
+  .fa-chevron-down {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .info {
+    background-color: white;
+    font-size: 1rem;
+    left: 55%;
+    padding-top: 1rem;
+    position: absolute;
+    right: 5%;
+    top: 100vh;
+    z-index: 1;
+  }
+  
+  .info p {
+    line-height: 1.3rem;
+  }
+  
+  .info-heading {
+    line-height: 2.25rem;
+  }
+  
+  .image {
+
+    margin: 2rem 0;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  section {
+    margin: 3rem 0;
+  }
+  
+  .section-header {
+    margin: 4rem 0;
+    text-decoration: none;
+  }
+  
+  .project-header {
+    color: black;
+    margin-bottom: 0.2rem;
+  }
+  
+  .project-info-link {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+  }
+  
+  .skills-list {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skills-item {
+    font-size: 4rem;
+    margin: 1rem 0.25rem;
+  }
+  
+  a[id="scroll"]:target ~ #main article.panel {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  
+  @media screen and (max-width: 930px) {
+    .info {
+      left: 5%;
+    }
+  
+    .scroll--notif {
+      left: 50%;
+      top: 90vh;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .firstname,
+    .lastname {
+      font-size: 25vw;
+    }
+    .header-image {
+      font-size: 8vw;
+    }
+    .firstsub a {
+        font-size: 12px;
+    }
+  }

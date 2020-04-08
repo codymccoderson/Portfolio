@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-152576929-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-152576929-2");
+    </script>
+
+    <meta charset="utf-8" />
+    <title>petejones</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/joystick.png"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="firstname">Pete</h1>
+        <h1 class="lastname">Jones</h1>
+
+        <div class="subtitle">
+          <h2 class="firstsub">Software Developer</h2>
+        </div>
+        <div class="social--links">
+          <a
+            class="far fa-envelope header-image"
+            href="mailto:peteflux@gmail.com"
+          ></a>
+          <a
+            class="far fa-file-pdf header-image"
+            href="./myResume320.pdf"
+            target="_blank"
+          ></a>
+          <a
+            class="fab fa-github header-image"
+            href="https://github.com/codymccoderson"
+            target="_blank"
+          ></a>
+          <a
+            class="fab fa-linkedin header-image"
+            href="https://www.linkedin.com/in/peter-jones-3a3a9a1a6/"
+            target="_blank"
+          ></a>
+        </div>
+      </header>
+      <div class="scroll--notif">
+        <a href="#about" class="fas fa-chevron-down"></a>
+      </div>
+      <div id="about" class="info">
+        <section>
+          <h2 class="info-heading">
+            Hello! My name is Pete and I’m a Developer from Atlanta,
+            Georgia.
+          </h2>
+          <img class="image" src="./images/alonissos.jpg" />
+        </section>
+        <section class="about-content">
+          <h2 class="section-header" style="margin-top:0;">
+            About
+          </h2>
+          <p>
+            In 2019, after 5 years of working as a paralegal, I was looking to make a change in profession to something flexible that could allow me to stay connected to my interests in music, sports, video games, traveling, and movies. A good friend of mine suggested taking the immersive DigitalCrafts course at Atlanta Tech Village, having just finished his cohort. It's been a great decision for me because it allows me to stay in a creative space and the possibilities are truly endless.
+          </p>
+          <p>
+            I've moved around quite a bit in my time on the planet, living in Chicago, Philadelphia, Atlanta, Singapore, Ireland, and South Korea to name a few places. I settled in Atlanta as a sophomore in high school and went on to graduate from the University of Miami with a BA in Business Administration. My wife Sarah is the love of my life and we currently live in Mableton, GA with our dog child Walter. I'm also a hip-hop artist. My producer Raphael and I have released a few records as the duo Pete Flux & Parental for Akromegalie Records.
+          </p>
+        </section>
+        <section class="skills-section">
+          <h2 class="section-header">Skills</h2>
+          <div class="skills-list">
+            <i class="skills-item devicon-html5-plain-wordmark"></i>
+            <i class="skills-item devicon-css3-plain-wordmark"></i>
+            <i class="skills-item devicon-javascript-plain"></i>
+            <i class="skills-item devicon-nodejs-plain-wordmark"></i>
+            <i class="skills-item devicon-express-original-wordmark"></i>
+            <i class="skills-item devicon-postgresql-plain-wordmark"></i>
+            <i class="skills-item devicon-python-plain-wordmark"></i>
+          </div>
+        </section>
+        <section class="projects-list" style="margin-bottom: 0;">
+          <h2 class="section-header">Projects</h2>
+          <h3 class="project-header">Solo Dolo</h3>
+          <p>
+            Solo Dolo is a project I helped build in a team of 3 that functionally is a mountain review site for free solo climbers where they are also able to chart their climb and save their route to a database. Solo Dolo was built using Node.js, Express, postgresQL, and HTML Canvas. We used HTML Canvas to allow the user to plot their route up the mountain by clicking on the image of the mountain. With each click, a connecting line is drawn over the image from point to point. Members of the site are allowed to save these routes to a database. 
+          </p>
+          <div>
+            <a href="github.com/codymccoderson" target="_blank">
+              <img class="image" src="./images/solo_dolo.png"
+            /></a>
+          </div>
+          <h3 class="project-header">Fast Food Revenge</h3>
+          <p>
+            Fast Food Revenge is a site that calculates the amount of time required to burn the calories you've gained from cheating on your diet, given your preferred method of exercise. It was created using HTML, CSS, and vanilla JavaScript while making several calls to a single API. The user chooses a method of exercise, types their weight, and selects a fast food restaurant on the homepage. On the next page, the entire menu list from that restaurant is displayed in a modal window. After an item is selected, the nutritional information associated with the item is displayed along with the exercise time needed to burn the total calories.
+          <a
+            href="https://fastfoodrevenge.netlify.com"
+            target="_blank"
+          >
+            <img class="image" src="./images/fast_food_revenge.png"
+          /></a>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
